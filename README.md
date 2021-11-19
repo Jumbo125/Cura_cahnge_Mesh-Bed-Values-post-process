@@ -15,4 +15,6 @@ Option 1: If you enable the "Same Value" checkbox, it's enough when you insert o
 
 Option 2: If you enable the "Save to EPPROM" checkbox, the settings will be save in the EPPROM. (If EPPROM is in the firmware enabled)
 
+<img src="https://github.com/Jumbo125/Cura_cahnge_Mesh-Bed-Values-post-process/blob/main/large_display_mbl_edit.JPG">
+
 I can't give any warranty
