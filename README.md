@@ -1,4 +1,4 @@
-# Cura_cahnge_Mesh-Bed-Values-post-process
+# Cura_change_Mesh-Bed-Values-post-process
 I wrote a script for the post-processing function in cura.
 You can change every point from the Mesh. YOU NEED to have a mesh bed. (Marlin-Mesh bed leveling). The Plugin inculde 25 points. So it's for a mesh bed leveling with 25 points created.
 
