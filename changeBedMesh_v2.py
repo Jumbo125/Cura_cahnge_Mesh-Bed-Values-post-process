@@ -313,9 +313,10 @@ class changeBedMesh(Script):
         if self.getSettingValueByKey("save_in_epprom"):
             new_mesh = I0J0 + " ;change Mesh Bed Point by Jumbo125 \n" + I1J0 + " ;change Mesh Bed Point by Jumbo125 \n" + I2J0 + " ;change Mesh Bed Point by Jumbo125 \n" + I3J0 + " ;change Mesh Bed Point by Jumbo125 \n" + I4J0 + " ;change Mesh Bed Point by Jumbo125 \n" + I0J1 + " ;change Mesh Bed Point by Jumbo125 \n" + I1J1 + " ;change Mesh Bed Point by Jumbo125 \n" + I2J1 + " ;change Mesh Bed Point by Jumbo125 \n" + I3J1 + " ;change Mesh Bed Point by Jumbo125 \n" + I4J1 + " ;change Mesh Bed Point by Jumbo125 \n" + I0J2 + " ;change Mesh Bed Point by Jumbo125 \n" + I1J2 + " ;change Mesh Bed Point by Jumbo125 \n" + I2J2 + " ;change Mesh Bed Point by Jumbo125 \n" + I3J2 + " ;change Mesh Bed Point by Jumbo125 \n" + I4J2 + " ;change Mesh Bed Point by Jumbo125 \n" + I0J3 + " ;change Mesh Bed Point by Jumbo125 \n" + I1J3 + " ;change Mesh Bed Point by Jumbo125 \n" + I2J3 + " ;change Mesh Bed Point by Jumbo125 \n" + I3J3 + " ;change Mesh Bed Point by Jumbo125 \n" + I4J3 + " ;change Mesh Bed Point by Jumbo125 \n" + I0J4 + " ;change Mesh Bed Point by Jumbo125 \n" + I1J4 + " ;change Mesh Bed Point by Jumbo125 \n" + I2J4 + " ;change Mesh Bed Point by Jumbo125 \n" + I3J4 + " ;change Mesh Bed Point by Jumbo125 \n" + I4J4 + " ;change Mesh Bed Point by Jumbo125 \nM500"
 
+        new_mesh_dot = new_mesh.replace(",", ".")
         search_string = "M420 S1"
 
-        replace_string = "M420 S1 \n" + new_mesh
+        replace_string = "M420 S1 \n" + new_mesh_dot
 
         for layer_number, layer in enumerate(data):
             data[layer_number] = re.sub(search_string, replace_string, layer)  # Replace all.
