@@ -42,7 +42,7 @@ class changeBedMesh(Script):
                     "description": "Value for all Points",
                     "type": "str",
                     "enabled": "set_all_same",
-                    "default_value": ""
+                    "default_value": "0"
                 },
                 "set_each_other":
                 {
@@ -57,7 +57,7 @@ class changeBedMesh(Script):
                     "description": "I0J0 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 },
                 "I1J0":
                 {
@@ -65,7 +65,7 @@ class changeBedMesh(Script):
                     "description": "I1J0 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 },   
                 "I2J0":
                 {
@@ -73,7 +73,7 @@ class changeBedMesh(Script):
                     "description": "I2J0 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 }, 
                 "I3J0":
                 {
@@ -81,7 +81,7 @@ class changeBedMesh(Script):
                     "description": "I3J0 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 }, 
                 "I4J0":
                 {
@@ -89,7 +89,7 @@ class changeBedMesh(Script):
                     "description": "I4J0 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 }, 
                 "I0J1":
                 {
@@ -97,7 +97,7 @@ class changeBedMesh(Script):
                     "description": "I0J1 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 }, 
                 "I1J1":
                 {
@@ -105,7 +105,7 @@ class changeBedMesh(Script):
                     "description": "I1J1 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 }, 
                 "I2J1":
                 {
@@ -113,7 +113,7 @@ class changeBedMesh(Script):
                     "description": "I2J1 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 }, 
                 "I3J1":
                 {
@@ -121,7 +121,7 @@ class changeBedMesh(Script):
                     "description": "I3J1 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 }, 
                 "I4J1":
                 {
@@ -129,7 +129,7 @@ class changeBedMesh(Script):
                     "description": "I4J1 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 }, 
                 "I0J2":
                 {
@@ -137,7 +137,7 @@ class changeBedMesh(Script):
                     "description": "I0J2 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 }, 
                 "I1J2":
                 {
@@ -145,7 +145,7 @@ class changeBedMesh(Script):
                     "description": "I1J2 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 },
                 "I2J2":
                 {
@@ -153,7 +153,7 @@ class changeBedMesh(Script):
                     "description": "I2J2 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 },
                 "I3J2":
                 {
@@ -161,7 +161,7 @@ class changeBedMesh(Script):
                     "description": "I3J2 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 },
                 "I4J2":
                 {
@@ -169,7 +169,7 @@ class changeBedMesh(Script):
                     "description": "I4J2 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 },
                 "I0J3":
                 {
@@ -177,7 +177,7 @@ class changeBedMesh(Script):
                     "description": "I0J3 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 },
                 "I1J3":
                 {
@@ -185,7 +185,7 @@ class changeBedMesh(Script):
                     "description": "I1J3 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 },
                 "I2J3":
                 {
@@ -193,7 +193,7 @@ class changeBedMesh(Script):
                     "description": "I2J3 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 },
                 "I3J3":
                 {
@@ -201,7 +201,7 @@ class changeBedMesh(Script):
                     "description": "I3J3 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 },
                 "I4J3":
                 {
@@ -209,7 +209,7 @@ class changeBedMesh(Script):
                     "description": "I4J3 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 },
                 "I0J4":
                 {
@@ -217,7 +217,7 @@ class changeBedMesh(Script):
                     "description": "I0J4 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 },
                 "I1J4":
                 {
@@ -225,7 +225,7 @@ class changeBedMesh(Script):
                     "description": "I1J4 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 },
                 "I2J4":
                 {
@@ -233,7 +233,7 @@ class changeBedMesh(Script):
                     "description": "I2J4 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 },
                 "I3J4":
                 {
@@ -241,7 +241,7 @@ class changeBedMesh(Script):
                     "description": "I3J4 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 },
                 "I4J4":
                 {
@@ -249,7 +249,7 @@ class changeBedMesh(Script):
                     "description": "I4J4 Value",
                     "type": "str",
                     "enabled": "set_each_other",
-                    "default_value": ""
+                    "default_value": "0"
                 }
             }
         }"""
