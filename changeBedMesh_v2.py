@@ -275,11 +275,11 @@ class changeBedMesh(Script):
         I2J3 = "M421 I2 J3 Q" + self.getSettingValueByKey("I2J3")
         I3J3 = "M421 I3 J3 Q" + self.getSettingValueByKey("I3J3")
         I4J3 = "M421 I4 J3 Q" + self.getSettingValueByKey("I4J3")
-        I0J4 = "M421 I0 J3 Q" + self.getSettingValueByKey("I0J3")
-        I1J4 = "M421 I1 J3 Q" + self.getSettingValueByKey("I1J3")
-        I2J4 = "M421 I2 J3 Q" + self.getSettingValueByKey("I2J3")
-        I3J4 = "M421 I3 J3 Q" + self.getSettingValueByKey("I3J3")
-        I4J4 = "M421 I4 J3 Q" + self.getSettingValueByKey("I4J3")
+        I0J4 = "M421 I0 J4 Q" + self.getSettingValueByKey("I0J3")
+        I1J4 = "M421 I1 J4 Q" + self.getSettingValueByKey("I1J3")
+        I2J4 = "M421 I2 J4 Q" + self.getSettingValueByKey("I2J3")
+        I3J4 = "M421 I3 J4 Q" + self.getSettingValueByKey("I3J3")
+        I4J4 = "M421 I4 J4 Q" + self.getSettingValueByKey("I4J3")
 
         if self.getSettingValueByKey("set_all_same"):
             I0J0 = "M421 I0 J0 Q" + self.getSettingValueByKey("allvalue")
@@ -302,11 +302,11 @@ class changeBedMesh(Script):
             I2J3 = "M421 I2 J3 Q" + self.getSettingValueByKey("allvalue")
             I3J3 = "M421 I3 J3 Q" + self.getSettingValueByKey("allvalue")
             I4J3 = "M421 I4 J3 Q" + self.getSettingValueByKey("allvalue")
-            I0J4 = "M421 I0 J3 Q" + self.getSettingValueByKey("allvalue")
-            I1J4 = "M421 I1 J3 Q" + self.getSettingValueByKey("allvalue")
-            I2J4 = "M421 I2 J3 Q" + self.getSettingValueByKey("allvalue")
-            I3J4 = "M421 I3 J3 Q" + self.getSettingValueByKey("allvalue")
-            I4J4 = "M421 I4 J3 Q" + self.getSettingValueByKey("allvalue")
+            I0J4 = "M421 I0 J4 Q" + self.getSettingValueByKey("allvalue")
+            I1J4 = "M421 I1 J4 Q" + self.getSettingValueByKey("allvalue")
+            I2J4 = "M421 I2 J4 Q" + self.getSettingValueByKey("allvalue")
+            I3J4 = "M421 I3 J4 Q" + self.getSettingValueByKey("allvalue")
+            I4J4 = "M421 I4 J4 Q" + self.getSettingValueByKey("allvalue")
 
         new_mesh = I0J0 + " ;change Mesh Bed Point by Jumbo125 \n" + I1J0 + " ;change Mesh Bed Point by Jumbo125 \n" + I2J0 + " ;change Mesh Bed Point by Jumbo125 \n" + I3J0 + " ;change Mesh Bed Point by Jumbo125 \n" + I4J0 + " ;change Mesh Bed Point by Jumbo125 \n" + I0J1 + " ;change Mesh Bed Point by Jumbo125 \n" + I1J1 + " ;change Mesh Bed Point by Jumbo125 \n" + I2J1 + " ;change Mesh Bed Point by Jumbo125 \n" + I3J1 + " ;change Mesh Bed Point by Jumbo125 \n" + I4J1 + " ;change Mesh Bed Point by Jumbo125 \n" + I0J2 + " ;change Mesh Bed Point by Jumbo125 \n" + I1J2 + " ;change Mesh Bed Point by Jumbo125 \n" + I2J2 + " ;change Mesh Bed Point by Jumbo125 \n" + I3J2 + " ;change Mesh Bed Point by Jumbo125 \n" + I4J2 + " ;change Mesh Bed Point by Jumbo125 \n" + I0J3 + " ;change Mesh Bed Point by Jumbo125 \n" + I1J3 + " ;change Mesh Bed Point by Jumbo125 \n" + I2J3 + " ;change Mesh Bed Point by Jumbo125 \n" + I3J3 + " ;change Mesh Bed Point by Jumbo125 \n" + I4J3 + " ;change Mesh Bed Point by Jumbo125 \n" + I0J4 + " ;change Mesh Bed Point by Jumbo125 \n" + I1J4 + " ;change Mesh Bed Point by Jumbo125 \n" + I2J4 + " ;change Mesh Bed Point by Jumbo125 \n" + I3J4 + " ;change Mesh Bed Point by Jumbo125 \n" + I4J4 + " ;change Mesh Bed Point by Jumbo125"
 
